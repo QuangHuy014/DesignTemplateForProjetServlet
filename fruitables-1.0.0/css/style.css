@@ -65,12 +65,12 @@
     font-weight: normal;
 }
 
-.btn.border-info {
+.btn.border-secondary {
     transition: 0.5s;
 }
 
-.btn.border-info:hover {
-    background: var(--bs-dark) !important;
+.btn.border-secondary:hover {
+    background: var(--bs-secondary) !important;
     color: var(--bs-white) !important;
 }
 
@@ -298,8 +298,7 @@
 }
 
 .fruite .fruite-item {
-    /* height: 100%; */
-    height:auto ;
+    height: 100%;
     transition: 0.5s;
 }
 .fruite .fruite-item:hover {
